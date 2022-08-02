@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="styles.css" media="all" />
+</head>
+
+<body>
+  <div class="bg-pattern-container">
+    <img class="bg-pattern top" src="images/bg-pattern-top.svg" alt="" />
+    <img class="bg-pattern bot" src="images/bg-pattern-bottom.svg" alt="" />
+  </div>
+  <main class="main-container">
+    <div class="profile-card">
+      <header class="profile-card__header">
+        <picture class="profile-card__picture">
+          <img src="images/image-victor.jpg" alt="Victor Crest profile picture" />
+        </picture>
+      </header>
+      <div class="profile-card__user-info">
+        <h3 class="profile-card__username">
+          Victor Crest
+          <span class="profile-card__user-age">26</span>
+        </h3>
+        <span class="profile-card__user-location">London</span>
+      </div>
+      <hr class="profile-card__separator">
+      <div class="profile-card__account-stats">
+        <div class="profile-card__stats-col">
+          <div class="profile-card__stat-number">80K</div>
+          <span class="profile-card__stat-name">Followers</span>
+        </div>
+        <div class="profile-card__stats-col">
+          <div class="profile-card__stat-number">803K</div>
+          <span class="profile-card__stat-name">Likes</span>
+        </div>
+        <div class="profile-card__stats-col">
+          <div class="profile-card__stat-number">1.4K</div>
+          <span class="profile-card__stat-name">Photos</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
